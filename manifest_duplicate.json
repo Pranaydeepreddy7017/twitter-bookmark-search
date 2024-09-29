@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Twitter Bookmark Search",
+  "version": "1.0",
+  "description": "Twitter bookmark",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "webRequest",
+    "cookies"
+  ],
+  "host_permissions": [
+    "*://*.x.com/"
+  ]
+}

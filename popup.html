@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter Bookmark Search</title>
+    <link rel="stylesheet" href="popup.css" />
+    <script type="module" src="libs/index.mjs"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Twitter Bookmark Search</h2>
+
+      <div class="bookmark-controls">
+        <input
+          type="submit"
+          id="loadBookmarksBtn"
+          class="button"
+          value="Load Bookmarks"
+        />
+      </div>
+
+      <div class="search-section">
+        <label for="searchInput">Search Bookmarks:</label>
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Enter search term"
+          class="input"
+        />
+        <input
+          type="submit"
+          id="searchBtn"
+          value="Search"
+          class="button"
+          disabled
+        />
+        <div id="loader" class="loader hidden"></div>
+      </div>
+
+      <div id="bookmarksList" class="bookmarks-list"></div>
+    </div>
+
+    <script type="module" src="popup.js" defer></script>
+  </body>
+</html>

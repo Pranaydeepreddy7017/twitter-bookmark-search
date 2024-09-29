@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Twitter Bookmark Search",
+  "version": "1.0",
+  "description": "Twitter bookmark",
+  "action": {},
+  "web_accessible_resources": [
+    {
+      "resources": ["libs/index.mjs"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "webRequest",
+    "cookies",
+    "tabs"
+  ],
+  "host_permissions": ["*://*.x.com/"]
+}
