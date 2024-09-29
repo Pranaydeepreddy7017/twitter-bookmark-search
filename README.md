@@ -1,4 +1,5 @@
 Add your own gemini API key in the popup.js file 
 
-Video to watch working extension
-https://drive.google.com/file/d/1G3hJNUd9aglgT9XuQ3c1Y7LDbz2ErC9s/view?usp=sharing
+Video to watch the extension in action
+
+https://drive.google.com/file/d/1eSEtWxxa5suQyEnSA8RdMAfz_pyztco6/view?usp=sharing
