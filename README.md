@@ -3,33 +3,21 @@ Twitter Bookmark Search
 A Chrome extension that lets you export / search your Twitter bookmarks locally, bypassing some of the limitations of the official Twitter API.
 This tool scraps your bookmarked posts via internal Twitter network calls (using your browser session credentials) and stores them locally so you can search through them from a popup UI.
 
-Table of Contents
+## Table of Contents
+- [Features](#features)  
+- [Getting Started](#getting-started)  
+  - [Prerequisites](#prerequisites)  
+  - [Installation](#installation)  
+  - [Usage](#usage)  
+- [How It Works](#how-it-works)  
+- [Project Structure](#project-structure)  
+- [Configuration](#configuration)  
+- [Limitations and Known Issues](#limitations-and-known-issues)  
+- [Future Improvements](#future-improvements)  
+- [Security & Privacy](#security--privacy)  
+- [Contributing](#contributing)  
+- [License](#license)
 
-Features
-
-Getting Started
-
-Prerequisites
-
-Installation
-
-Usage
-
-How It Works
-
-Project Structure
-
-Configuration
-
-Limitations and Known Issues
-
-Future Improvements
-
-Security & Privacy
-
-Contributing
-
-License
 
 Features
 
